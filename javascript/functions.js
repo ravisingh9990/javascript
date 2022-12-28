@@ -92,3 +92,10 @@ console.log(getRole);
 }
 
 console.log(getUserRole("Mohit", "user"));
+
+
+// function declarations are scanned and made availabe 
+// it means you can call the function above, where you have created your function because the global context scans and make it available.
+
+// variable declarations are scanned and made undefined
+// If we check the data type of the variable that is storing a function like the above code from line number 11 to 15, it will return undefined.
