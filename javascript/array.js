@@ -25,3 +25,17 @@ console.log(countries[0]);
 // finding the length of an array
 console.log(countries.length);
 
+// replacing value from the array
+
+countries[1] = "SriLanka";
+
+console.log(countries);
+
+var user = ["Ravi", "ravi@mail.com", 3, 34, true];
+console.log(user);
+
+user.Pop();
+user.Pop();
+console.log(user);
+user.unshift("NEW VALUE");
+console.log(user);
